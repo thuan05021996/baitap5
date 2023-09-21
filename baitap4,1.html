@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{ 
+            background-color: black;
+            color: papayawhip;
+        }
+        h1{
+            text-align: left;
+        }
+        li{
+            list-style: none;
+        }
+        h3{
+            text-align: center;
+        }
+        .form{
+            width: 300px;   
+            margin: 0 auto;
+            
+        }
+        input{
+            width: 300px;
+            padding: 10px;
+        }
+        .box1{
+            padding: 10px;
+        }
+        .box2{
+            background-color: black;
+            color: aliceblue;
+            width: 70px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hotel search</h1>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>contac</li>
+        </ul>
+    </header>
+    <div class="form">
+        <h3>find the pecfect Hotel for you</h3>
+        <form class="box1">
+            <label for="diachi">Địa chỉ</label><br>
+            <input type="text" name="diachi"><br>
+            <label for="checkin">Checkin</label><br>
+            <input type="date" name="checkin"><br>
+            <label for="checkout">Checkout</label><br>
+            <input type="date" name="checkout"><br>
+            <label for="guest">Guest</label><br>
+            <input type="number" name="guest"><br>
+
+            <input class="box2" type="submit" value="Search">
+        </form>
+    </div>
+    
+</body>
+<footer>
+    &copy.Hotel search.All right
+</footer>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .boxmodel{margin: 0 auto;
+        border: 1px solid red;
+        padding: 10px;
+        width: 600px;
+    height: 300px;
+        background-color: blueviolet;}
+    input{display: block;
+    width: 570px;}
+    .boxmodel1{
+        border: none;
+        background-color: plum;
+        padding: 10px;
+        margin: 5px;
+    }
+    h1{text-align: center;}
+    .Gui{background-color: blue;
+    color: aliceblue;
+    width: 80px;}
+    </style>
+</head>
+<body>
+    <div class="boxmodel">
+    <h1>Đăng ký tài khoản</h1>
+    <form class="boxmodel1">
+        <label for="ten">Họ và tên</label>
+        <input type="text" id="ten" name="ten">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+        <label for="matkhau">Mật khẩu</label>
+        <input type="password" id="matkhau" name="matkhau">
+        <label for="resetpas">Nhập lại mật khẩu</label>
+        <input type="password" name="resetpas">
+        
+        <input class="Gui" type="submit" value="Đăng ký" >
+    </form>
+</div>
+   
+</body>
+</html>
